@@ -1,0 +1,4538 @@
+[
+ {
+  "query_id": "Q01",
+  "record_id": "R014",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R008",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R007",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R004",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R011",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R012",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R025",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R010",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R027",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R017",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R003",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R006",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R015",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R024",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R021",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R026",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R005",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R013",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R001",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R022",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R023",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R002",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R020",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R016",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R018",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R019",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R009",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q01",
+  "record_id": "R028",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R014",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R008",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R007",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R004",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R011",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R012",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R025",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R010",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R027",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R017",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R003",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R006",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R015",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R024",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R021",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R026",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R005",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R013",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R001",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R022",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R023",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R002",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R020",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R016",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R018",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R019",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R009",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q04",
+  "record_id": "R028",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R053",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R041",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R037",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R032",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R054",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R030",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R033",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R029",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R031",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R049",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R043",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R047",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R055",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R045",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R050",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R040",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R042",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R036",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R034",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R051",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R039",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R038",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R035",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R056",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R052",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R046",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R044",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q07",
+  "record_id": "R048",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R053",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R041",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R037",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R032",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R054",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R030",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R033",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R029",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R031",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R049",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R043",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R047",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R055",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R045",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R050",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R040",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R042",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R036",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R034",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R051",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R039",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R038",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R035",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R056",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R052",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R046",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R044",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q10",
+  "record_id": "R048",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R070",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R071",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R058",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R064",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R079",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R078",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R075",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R081",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R074",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R072",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R066",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R067",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R069",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R083",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R059",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R061",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R084",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R063",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R060",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R076",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R080",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R077",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R057",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R062",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R065",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R068",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R073",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q13",
+  "record_id": "R082",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R070",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R071",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R058",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R064",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R079",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R078",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R075",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R081",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R074",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R072",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R066",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R067",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R069",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R083",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R059",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R061",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R084",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R063",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R060",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R076",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R080",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R077",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R057",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R062",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R065",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R068",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R073",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q16",
+  "record_id": "R082",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R094",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R098",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R095",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R088",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R087",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R090",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R086",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R092",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R085",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R091",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R097",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R096",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R093",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q19",
+  "record_id": "R089",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R103",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R100",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R102",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R111",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R101",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R107",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R110",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R108",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R104",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R109",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R099",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R106",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R105",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q22",
+  "record_id": "R112",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R113",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R120",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R118",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R123",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R114",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R126",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R121",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R115",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R125",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R124",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R117",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R122",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R119",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q25",
+  "record_id": "R116",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R140",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R130",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R131",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R132",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R129",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R127",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R135",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R134",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R136",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R139",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R133",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R128",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R138",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q28",
+  "record_id": "R137",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R146",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R142",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R141",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R147",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R148",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R151",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R149",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R152",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R145",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R143",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R150",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R144",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R154",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q31",
+  "record_id": "R153",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R161",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R160",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R156",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R166",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R164",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R168",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R167",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R165",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R159",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R162",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R158",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R155",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R163",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q34",
+  "record_id": "R157",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R014",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R008",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R007",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R004",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R011",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R012",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R025",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R010",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R027",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R017",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R003",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R006",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R015",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R024",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R021",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R026",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R005",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R013",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R001",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R022",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R023",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R002",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R020",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R016",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R018",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R019",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R009",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q02",
+  "record_id": "R028",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R014",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R008",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R007",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R004",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R011",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R012",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R025",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R010",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R027",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R017",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R003",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R006",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R015",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R024",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R021",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R026",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R005",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R013",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R001",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R022",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R023",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R002",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R020",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R016",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R018",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R019",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R009",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q03",
+  "record_id": "R028",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R014",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R008",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R007",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R004",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R011",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R012",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R025",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R010",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R027",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R017",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R003",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R006",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R015",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R024",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R021",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R026",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R005",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R013",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R001",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R022",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R023",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R002",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R020",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R016",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R018",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R019",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R009",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q05",
+  "record_id": "R028",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R014",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R008",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R007",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R004",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R011",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R012",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R025",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R010",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R027",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R017",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R003",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R006",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R015",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R024",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R021",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R026",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R005",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R013",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R001",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R022",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R023",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R002",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R020",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R016",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R018",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R019",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R009",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q06",
+  "record_id": "R028",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R053",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R041",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R037",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R032",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R054",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R030",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R033",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R029",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R031",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R049",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R043",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R047",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R055",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R045",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R050",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R040",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R042",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R036",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R034",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R051",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R039",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R038",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R035",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R056",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R052",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R046",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R044",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q08",
+  "record_id": "R048",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R053",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R041",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R037",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R032",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R054",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R030",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R033",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R029",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R031",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R049",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R043",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R047",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R055",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R045",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R050",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R040",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R042",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R036",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R034",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R051",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R039",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R038",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R035",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R056",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R052",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R046",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R044",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q09",
+  "record_id": "R048",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R053",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R041",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R037",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R032",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R054",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R030",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R033",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R029",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R031",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R049",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R043",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R047",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R055",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R045",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R050",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R040",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R042",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R036",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R034",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R051",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R039",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R038",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R035",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R056",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R052",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R046",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R044",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q11",
+  "record_id": "R048",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R053",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R041",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R037",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R032",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R054",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R030",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R033",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R029",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R031",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R049",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R043",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R047",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R055",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R045",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R050",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R040",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R042",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R036",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R034",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R051",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R039",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R038",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R035",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R056",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R052",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R046",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R044",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q12",
+  "record_id": "R048",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R070",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R071",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R058",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R064",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R079",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R078",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R075",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R081",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R074",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R072",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R066",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R067",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R069",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R083",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R059",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R061",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R084",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R063",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R060",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R076",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R080",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R077",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R057",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R062",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R065",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R068",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R073",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q14",
+  "record_id": "R082",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R070",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R071",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R058",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R064",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R079",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R078",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R075",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R081",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R074",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R072",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R066",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R067",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R069",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R083",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R059",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R061",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R084",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R063",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R060",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R076",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R080",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R077",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R057",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R062",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R065",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R068",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R073",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q15",
+  "record_id": "R082",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R070",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R071",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R058",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R064",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R079",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R078",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R075",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R081",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R074",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R072",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R066",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R067",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R069",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R083",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R059",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R061",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R084",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R063",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R060",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R076",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R080",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R077",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R057",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R062",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R065",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R068",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R073",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q17",
+  "record_id": "R082",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R070",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R071",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R058",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R064",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R079",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R078",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R075",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R081",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R074",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R072",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R066",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R067",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R069",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R083",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R059",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R061",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R084",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R063",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R060",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R076",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R080",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R077",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R057",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R062",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R065",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R068",
+  "grade": 0,
+  "hard_negative": true
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R073",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q18",
+  "record_id": "R082",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R094",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R098",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R095",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R088",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R087",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R090",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R086",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R092",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R085",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R091",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R097",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R096",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R093",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q20",
+  "record_id": "R089",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R094",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R098",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R095",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R088",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R087",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R090",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R086",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R092",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R085",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R091",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R097",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R096",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R093",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q21",
+  "record_id": "R089",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R103",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R100",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R102",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R111",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R101",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R107",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R110",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R108",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R104",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R109",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R099",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R106",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R105",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q23",
+  "record_id": "R112",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R103",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R100",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R102",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R111",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R101",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R107",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R110",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R108",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R104",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R109",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R099",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R106",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R105",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q24",
+  "record_id": "R112",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R113",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R120",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R118",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R123",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R114",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R126",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R121",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R115",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R125",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R124",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R117",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R122",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R119",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q26",
+  "record_id": "R116",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R113",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R120",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R118",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R123",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R114",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R126",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R121",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R115",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R125",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R124",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R117",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R122",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R119",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q27",
+  "record_id": "R116",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R140",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R130",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R131",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R132",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R129",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R127",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R135",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R134",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R136",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R139",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R133",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R128",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R138",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q29",
+  "record_id": "R137",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R140",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R130",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R131",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R132",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R129",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R127",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R135",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R134",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R136",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R139",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R133",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R128",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R138",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q30",
+  "record_id": "R137",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R146",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R142",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R141",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R147",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R148",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R151",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R149",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R152",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R145",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R143",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R150",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R144",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R154",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q32",
+  "record_id": "R153",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R146",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R142",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R141",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R147",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R148",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R151",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R149",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R152",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R145",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R143",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R150",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R144",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R154",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q33",
+  "record_id": "R153",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R161",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R160",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R156",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R166",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R164",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R168",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R167",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R165",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R159",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R162",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R158",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R155",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R163",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q35",
+  "record_id": "R157",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R161",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R160",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R156",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R166",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R164",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R168",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R167",
+  "grade": 1,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R165",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R159",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R162",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R158",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R155",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R163",
+  "grade": 3,
+  "hard_negative": false
+ },
+ {
+  "query_id": "Q36",
+  "record_id": "R157",
+  "grade": 3,
+  "hard_negative": false
+ }
+]

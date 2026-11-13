@@ -1,0 +1,794 @@
+[
+ {
+  "query_id": "Q01",
+  "scenario": "S01",
+  "text": "new issue: tray and supply ductwork overlap at D-4",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q04",
+  "scenario": "S02",
+  "text": "new issue: tray and supply duct overlap at D-4",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray"
+  ],
+  "clash_type": "hard",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q07",
+  "scenario": "S03",
+  "text": "new issue: pipe passes through a beam at G-2",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "G-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q10",
+  "scenario": "S04",
+  "text": "new issue: line passes through a steel member at H-3",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q13",
+  "scenario": "S05",
+  "text": "new issue: items over the hot aisle containment are in the way at E-3",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q16",
+  "scenario": "S06",
+  "text": "new issue: items over the hot aisle aisle enclosure are in the way at E-4",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment"
+  ],
+  "clash_type": "clearance",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q19",
+  "scenario": "S07",
+  "text": "genset flue conflicts with girders at J-1",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q22",
+  "scenario": "S08",
+  "text": "busduct in front of damper at B-5",
+  "phase": "Construction",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q25",
+  "scenario": "S09",
+  "text": "condensate pipe conflicts with floor pedestals at G-4",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q28",
+  "scenario": "S10",
+  "text": "door hits surface conduit at A-2",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit"
+  ],
+  "clash_type": "clearance",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q31",
+  "scenario": "S11",
+  "text": "sprinkler main runs into cable ladder at C-8",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q34",
+  "scenario": "S12",
+  "text": "RTU hits drain at K-6",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q37",
+  "scenario": "NOVEL",
+  "text": "battery rack clashes with structural column at B-9",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-9",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Electrical Equipment",
+   "Structural Column"
+  ],
+  "clash_type": "hard",
+  "split": "dev"
+ },
+ {
+  "query_id": "Q02",
+  "scenario": "S01",
+  "text": "air ductwork hits the cable tray at B-4",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q03",
+  "scenario": "S01",
+  "text": "cable ladder clashes with supply duct near grid B-4",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q05",
+  "scenario": "S02",
+  "text": "tray and duct collide around C-4",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q06",
+  "scenario": "S02",
+  "text": "conflict between tray and air ductwork at D-4",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q08",
+  "scenario": "S03",
+  "text": "pipe clashes with structural girder near H-2",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q09",
+  "scenario": "S03",
+  "text": "pipe collides with framing at H-2",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q11",
+  "scenario": "S04",
+  "text": "pipe hits steel steel member at H-3",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q12",
+  "scenario": "S04",
+  "text": "steel member and piping clash around H-3",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q14",
+  "scenario": "S05",
+  "text": "overhead items collision with aisle aisle enclosure at E-3",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "split": "test"
+ },
+ {
+  "query_id": "Q15",
+  "scenario": "S05",
+  "text": "containment roof hits items above at E-2",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "split": "test"
+ },
+ {
+  "query_id": "Q17",
+  "scenario": "S06",
+  "text": "containment roof hits items above at E-4",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "split": "test"
+ },
+ {
+  "query_id": "Q18",
+  "scenario": "S06",
+  "text": "overhead items conflict with aisle aisle enclosure at E-4",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "split": "test"
+ },
+ {
+  "query_id": "Q20",
+  "scenario": "S07",
+  "text": "exhaust stack hits roof steel at J-1",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q21",
+  "scenario": "S07",
+  "text": "genset flue conflicts with beams at K-1",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q23",
+  "scenario": "S08",
+  "text": "busway blocks fire damper access at B-5",
+  "phase": "Construction",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "split": "test"
+ },
+ {
+  "query_id": "Q24",
+  "scenario": "S08",
+  "text": "busductwork in front of damper at A-5",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "A-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway"
+  ],
+  "clash_type": "clearance",
+  "split": "test"
+ },
+ {
+  "query_id": "Q26",
+  "scenario": "S09",
+  "text": "condensate line clashes with floor pedestals at G-4",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q27",
+  "scenario": "S09",
+  "text": "drain line runs through raised floor supports at G-4",
+  "phase": "DD",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q29",
+  "scenario": "S10",
+  "text": "door hits surface conduit at A-2",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "split": "test"
+ },
+ {
+  "query_id": "Q30",
+  "scenario": "S10",
+  "text": "conduit inside door swing at A-2",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "split": "test"
+ },
+ {
+  "query_id": "Q32",
+  "scenario": "S11",
+  "text": "cable ladder runs into sprinkler main at D-8",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q33",
+  "scenario": "S11",
+  "text": "cable ladder conflicts with sprinkler main at C-9",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-9",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q35",
+  "scenario": "S12",
+  "text": "rooftop unit sits on roof drain at K-6",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q36",
+  "scenario": "S12",
+  "text": "RTU clashes with drain at K-6",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q38",
+  "scenario": "NOVEL",
+  "text": "fuel line crosses cable trench at J-8",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Cable Trench"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ },
+ {
+  "query_id": "Q39",
+  "scenario": "NOVEL",
+  "text": "louver blocked by conduit bank at A-7",
+  "phase": "IFC",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-7",
+  "level": "L2",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Louver",
+   "Conduit"
+  ],
+  "clash_type": "clearance",
+  "split": "test"
+ },
+ {
+  "query_id": "Q40",
+  "scenario": "NOVEL",
+  "text": "eyewash station clashes with pipe riser at K-2",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Plumbing",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Plumbing Fixture",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "split": "test"
+ }
+]

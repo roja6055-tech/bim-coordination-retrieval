@@ -1,0 +1,5384 @@
+[
+ {
+  "record_id": "R192",
+  "scenario": "UNREL",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "G-1",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Lighting Fixture",
+   "Air Terminal"
+  ],
+  "clash_type": "clearance",
+  "symptom": "light fixture overlaps diffuser at G-1",
+  "root_cause": "reflected ceiling plan updated",
+  "resolution": "shifted fixture",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R192.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R103",
+  "scenario": "S08",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "no access to damper because of busduct at B-5",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R103.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R053",
+  "scenario": "S04",
+  "project": "P09",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe collides with framing at H-3",
+  "root_cause": "beam depth increased to carry heavier rooftop units",
+  "resolution": "lowered branch line and re-spaced heads",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R053.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R197",
+  "scenario": "UNREL",
+  "project": "P05",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "E-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Structural Framing"
+  ],
+  "clash_type": "clearance",
+  "symptom": "conduit penetrates beam web at E-8",
+  "root_cause": "penetration not approved",
+  "resolution": "rerouted conduit below beam",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R197.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R041",
+  "scenario": "S03",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v2",
+  "grid_zone": "H-2",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe collides with framing at H-2",
+  "root_cause": "",
+  "resolution": "relocated the chilled water pipe below the beam and added a hanger detail",
+  "superseded": true,
+  "superseded_by": "R029",
+  "source_document": "coordination-log-R041.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R014",
+  "scenario": "S01",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "F-9",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "conflict between cable tray and ductwork at F-9",
+  "root_cause": "",
+  "resolution": "dropped tray by 300 mm and shifted busway along the revised route",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R014.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R037",
+  "scenario": "S03",
+  "project": "P04",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-1",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe runs into structural beam at H-1",
+  "root_cause": "larger chilled water header after load update",
+  "resolution": "ran CHW main under the beam with new hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R037.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R140",
+  "scenario": "S10",
+  "project": "P06",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at A-2",
+  "root_cause": "surface conduit placed in the door swing zone",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R140.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R161",
+  "scenario": "S12",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "roof drain under mechanical unit at J-6",
+  "root_cause": "rooftop unit placed over a roof drain",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R161.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R171",
+  "scenario": "UNREL",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "E-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Plumbing",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Ceiling"
+  ],
+  "clash_type": "clearance",
+  "symptom": "drain pipe below ceiling at E-1",
+  "root_cause": "pipe slope not modeled",
+  "resolution": "raised drain into plenum",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R171.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R172",
+  "scenario": "UNREL",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L2",
+  "discipline_pair": [
+   "Fire Protection",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "sprinkler branch crosses duct at E-3",
+  "root_cause": "branch routed late",
+  "resolution": "swapped elevations",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R172.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R070",
+  "scenario": "S05",
+  "project": "P04",
+  "phase": "Construction",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Generic Model"
+  ],
+  "clash_type": "clearance",
+  "symptom": "services above containment are too low at E-2",
+  "root_cause": "containment roof height changed in the current design standard",
+  "resolution": "moved light fixtures onto the containment frame",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R070.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R071",
+  "scenario": "S06",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment clashs with overhead services at E-4",
+  "root_cause": "containment roof blocks sprinkler spray pattern",
+  "resolution": "fire engineer approved heads inside containment",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R071.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R184",
+  "scenario": "UNREL",
+  "project": "P07",
+  "phase": "DD",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "K-9",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Lighting Fixture",
+   "Air Terminal"
+  ],
+  "clash_type": "hard",
+  "symptom": "light fixture overlaps diffuser at K-9",
+  "root_cause": "",
+  "resolution": "shifted fixture",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R184.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R130",
+  "scenario": "S10",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "J-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at J-2",
+  "root_cause": "",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R130.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R008",
+  "scenario": "S01",
+  "project": "P04",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "collision between cable tray and ductwork at B-4",
+  "root_cause": "",
+  "resolution": "dropped tray by 300 mm and shifted busway along the revised route",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R008.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R100",
+  "scenario": "S08",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "no access to damper because of busduct at B-5",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R100.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R188",
+  "scenario": "UNREL",
+  "project": "P03",
+  "phase": "Construction",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "F-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "sprinkler branch crosses duct at F-3",
+  "root_cause": "branch routed late",
+  "resolution": "swapped elevations",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R188.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R007",
+  "scenario": "S01",
+  "project": "P07",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray and duct collide around C-4",
+  "root_cause": "electrical room mirrored, pushing the busway and tray into the duct zone",
+  "resolution": "dropped tray by 300 mm and shifted busway along the revised route",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R007.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R113",
+  "scenario": "S09",
+  "project": "P06",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "F-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "pedestals hit condensate line at F-4",
+  "root_cause": "",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R113.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R094",
+  "scenario": "S07",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "generator exhaust hits roof framing at J-1",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R094.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R004",
+  "scenario": "S01",
+  "project": "P07",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray"
+  ],
+  "clash_type": "hard",
+  "symptom": "tray runs into the duct main at C-3",
+  "root_cause": "busway route moved after the electrical room layout was mirrored",
+  "resolution": "dropped tray by 300 mm and shifted busway along the revised route",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R004.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R131",
+  "scenario": "S10",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-1",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at A-1",
+  "root_cause": "surface conduit placed in the door swing zone",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R131.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R186",
+  "scenario": "UNREL",
+  "project": "P09",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "J-9",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Duct",
+   "Electrical Equipment"
+  ],
+  "clash_type": "hard",
+  "symptom": "duct above switchboard at J-9",
+  "root_cause": "",
+  "resolution": "rerouted duct away from switchboard",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R186.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R146",
+  "scenario": "S11",
+  "project": "P07",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "tray and sprinkler main collide at C-8",
+  "root_cause": "",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R146.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R032",
+  "scenario": "S03",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe hits steel beam at H-2",
+  "root_cause": "",
+  "resolution": "ran CHW main under the beam with new hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R032.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R142",
+  "scenario": "S11",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "sprinkler main runs into cable ladder at C-8",
+  "root_cause": "cable ladder and sprinkler main share one elevation band",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R142.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R054",
+  "scenario": "S04",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe hits steel beam at H-3",
+  "root_cause": "deeper roof beams for added rooftop equipment load",
+  "resolution": "lowered branch line and re-spaced heads",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R054.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R058",
+  "scenario": "S05",
+  "project": "P06",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "Roof",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment runs into overhead services at E-3",
+  "root_cause": "taller containment roof in the latest standard",
+  "resolution": "mounted fixtures on containment frame instead of ceiling",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R058.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R141",
+  "scenario": "S11",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray"
+  ],
+  "clash_type": "hard",
+  "symptom": "sprinkler main runs into cable ladder at D-8",
+  "root_cause": "",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R141.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R147",
+  "scenario": "S11",
+  "project": "P01",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray"
+  ],
+  "clash_type": "hard",
+  "symptom": "sprinkler main runs into cable ladder at C-8",
+  "root_cause": "",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R147.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R132",
+  "scenario": "S10",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at A-2",
+  "root_cause": "surface conduit placed in the door swing zone",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R132.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R196",
+  "scenario": "UNREL",
+  "project": "P07",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "C-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Fire Protection",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "sprinkler branch crosses duct at C-6",
+  "root_cause": "",
+  "resolution": "swapped elevations",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R196.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R030",
+  "scenario": "S03",
+  "project": "P02",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "G-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe clashes with structural beam near G-2",
+  "root_cause": "",
+  "resolution": "relocated the chilled water pipe below the beam and added a hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R030.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R011",
+  "scenario": "S01",
+  "project": "P06",
+  "phase": "Construction",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "conflict between cable tray and ductwork at C-4",
+  "root_cause": "",
+  "resolution": "lowered the cable tray 300 mm and offset the busway per the revised electrical layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R011.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R064",
+  "scenario": "S05",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment clashes with overhead services at E-3",
+  "root_cause": "containment roof height changed in the current design standard",
+  "resolution": "mounted fixtures on containment frame instead of ceiling",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R064.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R120",
+  "scenario": "S09",
+  "project": "P06",
+  "phase": "DD",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "pedestals hit condensate line at G-4",
+  "root_cause": "cooling unit condensate line routed through raised-floor pedestals",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R120.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R180",
+  "scenario": "UNREL",
+  "project": "P02",
+  "phase": "Construction",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "C-6",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Duct"
+  ],
+  "clash_type": "clearance",
+  "symptom": "sprinkler branch crosses duct at C-6",
+  "root_cause": "",
+  "resolution": "swapped elevations",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R180.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R193",
+  "scenario": "UNREL",
+  "project": "P02",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "C-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Structural"
+  ],
+  "element_categories": [
+   "Wall",
+   "Structural Column"
+  ],
+  "clash_type": "hard",
+  "symptom": "wall misaligned with column at C-2",
+  "root_cause": "wall offset from column grid",
+  "resolution": "updated wall layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R193.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R033",
+  "scenario": "S03",
+  "project": "P07",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe hits steel beam at H-2",
+  "root_cause": "chilled water main upsized in a later design revision",
+  "resolution": "relocated the chilled water pipe below the beam and added a hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R033.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R195",
+  "scenario": "UNREL",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-1",
+  "level": "L2",
+  "discipline_pair": [
+   "Plumbing",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Ceiling"
+  ],
+  "clash_type": "clearance",
+  "symptom": "drain pipe below ceiling at D-1",
+  "root_cause": "",
+  "resolution": "raised drain into plenum",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R195.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R079",
+  "scenario": "S06",
+  "project": "P08",
+  "phase": "Construction",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-6",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Generic Model"
+  ],
+  "clash_type": "clearance",
+  "symptom": "overhead items collision with aisle containment at C-6",
+  "root_cause": "",
+  "resolution": "added sprinkler heads inside the containment per the fire engineer",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R079.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R148",
+  "scenario": "S11",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable ladder clashs with sprinkler main at B-3",
+  "root_cause": "cable ladder and sprinkler main share one elevation band",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R148.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R098",
+  "scenario": "S07",
+  "project": "P06",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "exhaust stack hits roof steel at J-1",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R098.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R012",
+  "scenario": "S01",
+  "project": "P01",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray and duct collide around C-4",
+  "root_cause": "electrical room mirrored, pushing the busway and tray into the duct zone",
+  "resolution": "lowered the cable tray 300 mm and offset the busway per the revised electrical layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R012.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R129",
+  "scenario": "S10",
+  "project": "P07",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "conduit inside door swing at A-2",
+  "root_cause": "surface conduit placed in the door swing zone",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R129.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R127",
+  "scenario": "S10",
+  "project": "P08",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at A-2",
+  "root_cause": "",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R127.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R078",
+  "scenario": "S06",
+  "project": "P09",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "services above containment are too low at E-4",
+  "root_cause": "containment roof blocks sprinkler spray pattern",
+  "resolution": "fire engineer approved heads inside containment",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R078.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R176",
+  "scenario": "UNREL",
+  "project": "P07",
+  "phase": "IFC",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Lighting Fixture",
+   "Air Terminal"
+  ],
+  "clash_type": "clearance",
+  "symptom": "light fixture overlaps diffuser at G-5",
+  "root_cause": "reflected ceiling plan updated",
+  "resolution": "shifted fixture",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R176.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R200",
+  "scenario": "UNREL",
+  "project": "P09",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-2",
+  "level": "Roof",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Lighting Fixture",
+   "Air Terminal"
+  ],
+  "clash_type": "clearance",
+  "symptom": "light fixture overlaps diffuser at J-2",
+  "root_cause": "reflected ceiling plan updated",
+  "resolution": "shifted fixture",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R200.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R075",
+  "scenario": "S06",
+  "project": "P02",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "clearance problem over hot aisle containment at E-4",
+  "root_cause": "containment roof blocks sprinkler spray pattern",
+  "resolution": "added sprinkler heads inside the containment per the fire engineer",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R075.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R151",
+  "scenario": "S11",
+  "project": "P06",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "tray and sprinkler main collide at C-8",
+  "root_cause": "",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R151.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R160",
+  "scenario": "S12",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-5",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "roof drain under mechanical unit at K-5",
+  "root_cause": "rooftop unit placed over a roof drain",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R160.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R198",
+  "scenario": "UNREL",
+  "project": "P02",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "E-5",
+  "level": "Roof",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Door",
+   "Mechanical Equipment"
+  ],
+  "clash_type": "clearance",
+  "symptom": "unit blocks door access at E-5",
+  "root_cause": "maintenance clearance missed",
+  "resolution": "moved unit 600 mm",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R198.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R174",
+  "scenario": "UNREL",
+  "project": "P09",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "Roof",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Door",
+   "Mechanical Equipment"
+  ],
+  "clash_type": "clearance",
+  "symptom": "unit blocks door access at H-2",
+  "root_cause": "maintenance clearance missed",
+  "resolution": "moved unit 600 mm",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R174.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R081",
+  "scenario": "S06",
+  "project": "P05",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment roof hits items above at E-4",
+  "root_cause": "",
+  "resolution": "fire engineer approved heads inside containment",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R081.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R025",
+  "scenario": "S02",
+  "project": "P08",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "ductwork hits the cable tray at D-4",
+  "root_cause": "raised ceiling height in the office wing reduced plenum depth",
+  "resolution": "rerouted the duct above the corridor and kept the tray at its original elevation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R025.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R074",
+  "scenario": "S06",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment clashes with overhead services at E-4",
+  "root_cause": "sprinkler heads above the containment roof are obstructed",
+  "resolution": "added sprinkler heads inside the containment per the fire engineer",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R074.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R010",
+  "scenario": "S01",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "ductwork hits the cable tray at C-4",
+  "root_cause": "electrical room mirrored, pushing the busway and tray into the duct zone",
+  "resolution": "dropped tray by 300 mm and shifted busway along the revised route",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R010.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R072",
+  "scenario": "S06",
+  "project": "P09",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "clearance problem over hot aisle containment at E-4",
+  "root_cause": "containment roof blocks sprinkler spray pattern",
+  "resolution": "added sprinkler heads inside the containment per the fire engineer",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R072.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R156",
+  "scenario": "S12",
+  "project": "P01",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment"
+  ],
+  "clash_type": "hard",
+  "symptom": "RTU conflicts with drain at K-6",
+  "root_cause": "",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R156.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R029",
+  "scenario": "S03",
+  "project": "P09",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "piping runs through the beam at H-2",
+  "root_cause": "larger chilled water header after load update",
+  "resolution": "relocated the chilled water pipe below the beam and added a hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R029.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R031",
+  "scenario": "S03",
+  "project": "P02",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe clashes with structural beam near H-2",
+  "root_cause": "",
+  "resolution": "ran CHW main under the beam with new hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R031.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R049",
+  "scenario": "S04",
+  "project": "P04",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "G-3",
+  "level": "Roof",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe collides with framing at G-3",
+  "root_cause": "beam depth increased to carry heavier rooftop units",
+  "resolution": "lowered branch line and re-spaced heads",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R049.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R027",
+  "scenario": "S02",
+  "project": "P04",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v2",
+  "grid_zone": "D-4",
+  "level": "Roof",
+  "discipline_pair": [
+   "Architectural"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "tray runs into the duct main at D-4",
+  "root_cause": "raised ceiling height in the office wing reduced plenum depth",
+  "resolution": "moved duct over corridor; tray unchanged",
+  "superseded": true,
+  "superseded_by": "R015",
+  "source_document": "coordination-log-R027.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R043",
+  "scenario": "S04",
+  "project": "P08",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "beam and pipe clash around H-3",
+  "root_cause": "beam depth increased to carry heavier rooftop units",
+  "resolution": "lowered branch line and re-spaced heads",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R043.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R118",
+  "scenario": "S09",
+  "project": "P09",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "F-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "pedestals hit condensate line at F-4",
+  "root_cause": "cooling unit condensate line routed through raised-floor pedestals",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R118.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R017",
+  "scenario": "S02",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray clashes with supply duct near grid D-4",
+  "root_cause": "office ceiling raised, squeezing the services zone above it",
+  "resolution": "moved duct over corridor; tray unchanged",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R017.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R066",
+  "scenario": "S05",
+  "project": "P07",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment roof hits items above at E-3",
+  "root_cause": "taller containment roof in the latest standard",
+  "resolution": "mounted fixtures on containment frame instead of ceiling",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R066.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R166",
+  "scenario": "S12",
+  "project": "P07",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment"
+  ],
+  "clash_type": "hard",
+  "symptom": "RTU clashs with drain at K-6",
+  "root_cause": "",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R166.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R149",
+  "scenario": "S11",
+  "project": "P08",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "sprinkler main runs into cable ladder at C-8",
+  "root_cause": "cable ladder and sprinkler main share one elevation band",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R149.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R095",
+  "scenario": "S07",
+  "project": "P08",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "exhaust stack hits roof steel at J-1",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R095.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R003",
+  "scenario": "S01",
+  "project": "P07",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-7",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray clashes with supply duct around grid D-7",
+  "root_cause": "",
+  "resolution": "dropped tray by 300 mm and shifted busway along the revised route",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R003.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R047",
+  "scenario": "S04",
+  "project": "P01",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "beam and pipe clash around H-3",
+  "root_cause": "beam depth increased to carry heavier rooftop units",
+  "resolution": "lowered branch line and re-spaced heads",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R047.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R067",
+  "scenario": "S05",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "G-7",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment runs into overhead services at G-7",
+  "root_cause": "",
+  "resolution": "mounted fixtures on containment frame instead of ceiling",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R067.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R006",
+  "scenario": "S01",
+  "project": "P01",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray and duct collide around C-4",
+  "root_cause": "",
+  "resolution": "lowered the cable tray 300 mm and offset the busway per the revised electrical layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R006.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R152",
+  "scenario": "S11",
+  "project": "P06",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-7",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable ladder clashes with sprinkler main at C-7",
+  "root_cause": "cable ladder and sprinkler main share one elevation band",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R152.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R178",
+  "scenario": "UNREL",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "D-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Duct",
+   "Electrical Equipment"
+  ],
+  "clash_type": "clearance",
+  "symptom": "duct above switchboard at D-8",
+  "root_cause": "duct over electrical equipment not allowed",
+  "resolution": "rerouted duct away from switchboard",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R178.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R123",
+  "scenario": "S09",
+  "project": "P04",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-4",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "drain line runs through raised floor supports at G-4",
+  "root_cause": "",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R123.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R170",
+  "scenario": "UNREL",
+  "project": "P06",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "D-2",
+  "level": "L2",
+  "discipline_pair": [
+   "Mechanical",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Duct",
+   "Electrical Equipment"
+  ],
+  "clash_type": "hard",
+  "symptom": "duct above switchboard at D-2",
+  "root_cause": "duct over electrical equipment not allowed",
+  "resolution": "rerouted duct away from switchboard",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R170.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R015",
+  "scenario": "S02",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "ductwork hits the cable tray at D-4",
+  "root_cause": "raised ceiling height in the office wing reduced plenum depth",
+  "resolution": "rerouted the duct above the corridor and kept the tray at its original elevation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R015.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R102",
+  "scenario": "S08",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway"
+  ],
+  "clash_type": "clearance",
+  "symptom": "busduct in front of damper at B-5",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R102.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R055",
+  "scenario": "S04",
+  "project": "P08",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v2",
+  "grid_zone": "H-3",
+  "level": "L2",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe hits steel beam at H-3",
+  "root_cause": "",
+  "resolution": "dropped the sprinkler branch below the beam and adjusted head spacing",
+  "superseded": true,
+  "superseded_by": "R043",
+  "source_document": "coordination-log-R055.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R111",
+  "scenario": "S08",
+  "project": "P05",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v2",
+  "grid_zone": "C-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "no access to damper because of busduct at C-5",
+  "root_cause": "",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": true,
+  "superseded_by": "R099",
+  "source_document": "coordination-log-R111.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R045",
+  "scenario": "S04",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "piping runs through the beam at H-2",
+  "root_cause": "",
+  "resolution": "dropped the sprinkler branch below the beam and adjusted head spacing",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R045.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R024",
+  "scenario": "S02",
+  "project": "P01",
+  "phase": "Construction",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray runs into supply duct near grid D-4",
+  "root_cause": "",
+  "resolution": "moved duct over corridor; tray unchanged",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R024.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R173",
+  "scenario": "UNREL",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "F-7",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Structural Framing"
+  ],
+  "clash_type": "clearance",
+  "symptom": "conduit penetrates beam web at F-7",
+  "root_cause": "penetration not approved",
+  "resolution": "rerouted conduit below beam",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R173.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R179",
+  "scenario": "UNREL",
+  "project": "P01",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Plumbing",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "drain pipe below ceiling at K-4",
+  "root_cause": "pipe slope not modeled",
+  "resolution": "raised drain into plenum",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R179.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R164",
+  "scenario": "S12",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "roof drain under mechanical unit at K-6",
+  "root_cause": "",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R164.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R088",
+  "scenario": "S07",
+  "project": "P01",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "C-5",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "genset flue conflicts with beams at C-5",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R088.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R168",
+  "scenario": "S12",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "roof drain under mechanical unit at K-6",
+  "root_cause": "rooftop unit placed over a roof drain",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R168.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R189",
+  "scenario": "UNREL",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "G-5",
+  "level": "Roof",
+  "discipline_pair": [
+   "Electrical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Structural Framing"
+  ],
+  "clash_type": "clearance",
+  "symptom": "conduit penetrates beam web at G-5",
+  "root_cause": "penetration not approved",
+  "resolution": "rerouted conduit below beam",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R189.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R135",
+  "scenario": "S10",
+  "project": "P01",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-1",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "conduit hits door at A-1",
+  "root_cause": "",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R135.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R069",
+  "scenario": "S05",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v2",
+  "grid_zone": "E-3",
+  "level": "Roof",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "symptom": "overhead items conflict with aisle containment at E-3",
+  "root_cause": "containment roof height changed in the current design standard",
+  "resolution": "mounted fixtures on containment frame instead of ceiling",
+  "superseded": true,
+  "superseded_by": "R057",
+  "source_document": "coordination-log-R069.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R114",
+  "scenario": "S09",
+  "project": "P05",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "pedestals hit condensate line at G-4",
+  "root_cause": "cooling unit condensate line routed through raised-floor pedestals",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R114.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R083",
+  "scenario": "S06",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v2",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "services above containment are too low at E-4",
+  "root_cause": "sprinkler heads above the containment roof are obstructed",
+  "resolution": "added sprinkler heads inside the containment per the fire engineer",
+  "superseded": true,
+  "superseded_by": "R071",
+  "source_document": "coordination-log-R083.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R145",
+  "scenario": "S11",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "tray and sprinkler main collide at C-8",
+  "root_cause": "",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R145.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R167",
+  "scenario": "S12",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v2",
+  "grid_zone": "K-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "roof drain under mechanical unit at K-6",
+  "root_cause": "",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": true,
+  "superseded_by": "R155",
+  "source_document": "coordination-log-R167.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R194",
+  "scenario": "UNREL",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "B-9",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Duct",
+   "Electrical Equipment"
+  ],
+  "clash_type": "clearance",
+  "symptom": "duct above switchboard at B-9",
+  "root_cause": "duct over electrical equipment not allowed",
+  "resolution": "rerouted duct away from switchboard",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R194.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R059",
+  "scenario": "S05",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment roof hits items above at E-3",
+  "root_cause": "taller containment roof in the latest standard",
+  "resolution": "mounted fixtures on containment frame instead of ceiling",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R059.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R050",
+  "scenario": "S04",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe hits steel beam at H-3",
+  "root_cause": "",
+  "resolution": "lowered branch line and re-spaced heads",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R050.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R087",
+  "scenario": "S07",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "exhaust stack hits roof steel at K-1",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R087.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R134",
+  "scenario": "S10",
+  "project": "P09",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at A-2",
+  "root_cause": "surface conduit placed in the door swing zone",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R134.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R101",
+  "scenario": "S08",
+  "project": "P05",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "busduct in front of damper at B-5",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R101.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R090",
+  "scenario": "S07",
+  "project": "P07",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "exhaust stack hits roof steel at J-1",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R090.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R086",
+  "scenario": "S07",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "genset flue collisions with beams at J-1",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R086.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R092",
+  "scenario": "S07",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "generator exhaust clashes with roof framing at J-1",
+  "root_cause": "",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R092.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R183",
+  "scenario": "UNREL",
+  "project": "P09",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-5",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Duct",
+   "Structural Column"
+  ],
+  "clash_type": "hard",
+  "symptom": "duct runs into column at J-5",
+  "root_cause": "column enlarged",
+  "resolution": "split duct around column",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R183.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R126",
+  "scenario": "S09",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "H-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "pedestals hit condensate line at H-4",
+  "root_cause": "cooling unit condensate line routed through raised-floor pedestals",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R126.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R061",
+  "scenario": "S05",
+  "project": "P07",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Generic Model"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment runs into overhead services at E-3",
+  "root_cause": "taller containment roof in the latest standard",
+  "resolution": "moved light fixtures onto the containment frame",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R061.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R121",
+  "scenario": "S09",
+  "project": "P05",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "pedestals hit condensate line at G-3",
+  "root_cause": "cooling unit condensate line routed through raised-floor pedestals",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R121.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R084",
+  "scenario": "S06",
+  "project": "P07",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment collisions with overhead services at E-4",
+  "root_cause": "sprinkler heads above the containment roof are obstructed",
+  "resolution": "added sprinkler heads inside the containment per the fire engineer",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R084.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R107",
+  "scenario": "S08",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "busduct in front of damper at B-5",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R107.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R136",
+  "scenario": "S10",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at A-2",
+  "root_cause": "",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R136.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R143",
+  "scenario": "S11",
+  "project": "P03",
+  "phase": "Construction",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "sprinkler main runs into cable ladder at C-8",
+  "root_cause": "cable ladder and sprinkler main share one elevation band",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R143.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R021",
+  "scenario": "S02",
+  "project": "P04",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "clash between cable tray and ductwork at D-4",
+  "root_cause": "office ceiling raised, squeezing the services zone above it",
+  "resolution": "rerouted the duct above the corridor and kept the tray at its original elevation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R021.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R139",
+  "scenario": "S10",
+  "project": "P04",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v2",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at A-2",
+  "root_cause": "",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": true,
+  "superseded_by": "R127",
+  "source_document": "coordination-log-R139.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R063",
+  "scenario": "S05",
+  "project": "P07",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "symptom": "services above containment are too low at E-3",
+  "root_cause": "taller containment roof in the latest standard",
+  "resolution": "mounted fixtures on containment frame instead of ceiling",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R063.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R150",
+  "scenario": "S11",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "sprinkler main runs into cable ladder at C-8",
+  "root_cause": "cable ladder and sprinkler main share one elevation band",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R150.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R110",
+  "scenario": "S08",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "busway blocks fire damper access at B-5",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R110.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R085",
+  "scenario": "S07",
+  "project": "P01",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust"
+  ],
+  "clash_type": "hard",
+  "symptom": "generator exhaust clashes with roof framing at J-1",
+  "root_cause": "",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R085.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R040",
+  "scenario": "S03",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L2",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "piping runs through the beam at H-2",
+  "root_cause": "larger chilled water header after load update",
+  "resolution": "relocated the chilled water pipe below the beam and added a hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R040.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R026",
+  "scenario": "S02",
+  "project": "P01",
+  "phase": "Construction",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "collision between cable tray and ductwork at D-4",
+  "root_cause": "",
+  "resolution": "moved duct over corridor; tray unchanged",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R026.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R108",
+  "scenario": "S08",
+  "project": "P08",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "busduct in front of damper at H-2",
+  "root_cause": "",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R108.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R104",
+  "scenario": "S08",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "no access to damper because of busduct at B-5",
+  "root_cause": "",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R104.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R005",
+  "scenario": "S01",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "ductwork hits the cable tray at C-4",
+  "root_cause": "electrical room mirrored, pushing the busway and tray into the duct zone",
+  "resolution": "lowered the cable tray 300 mm and offset the busway per the revised electrical layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R005.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R133",
+  "scenario": "S10",
+  "project": "P07",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at A-2",
+  "root_cause": "",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R133.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R109",
+  "scenario": "S08",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Generic Model"
+  ],
+  "clash_type": "clearance",
+  "symptom": "busduct in front of damper at B-5",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R109.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R091",
+  "scenario": "S07",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "exhaust stack hits roof steel at J-1",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R091.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R097",
+  "scenario": "S07",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v2",
+  "grid_zone": "J-2",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "exhaust stack hits roof steel at J-2",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": true,
+  "superseded_by": "R085",
+  "source_document": "coordination-log-R097.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R128",
+  "scenario": "S10",
+  "project": "P01",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at A-2",
+  "root_cause": "surface conduit placed in the door swing zone",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R128.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R060",
+  "scenario": "S05",
+  "project": "P03",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Generic Model"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment clashes with overhead services at E-3",
+  "root_cause": "taller containment roof in the latest standard",
+  "resolution": "moved light fixtures onto the containment frame",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R060.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R115",
+  "scenario": "S09",
+  "project": "P03",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "drain line runs through raised floor supports at G-4",
+  "root_cause": "",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R115.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R144",
+  "scenario": "S11",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Cable Tray"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable ladder clashes with sprinkler main at D-8",
+  "root_cause": "",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R144.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R154",
+  "scenario": "S11",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "sprinkler main runs into cable ladder at B-8",
+  "root_cause": "cable ladder and sprinkler main share one elevation band",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R154.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R042",
+  "scenario": "S03",
+  "project": "P06",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "F-7",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "piping runs through the beam at F-7",
+  "root_cause": "chilled water main upsized in a later design revision",
+  "resolution": "ran CHW main under the beam with new hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R042.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R013",
+  "scenario": "S01",
+  "project": "P08",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v2",
+  "grid_zone": "B-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray clashes with supply duct near grid B-4",
+  "root_cause": "",
+  "resolution": "lowered the cable tray 300 mm and offset the busway per the revised electrical layout",
+  "superseded": true,
+  "superseded_by": "R001",
+  "source_document": "coordination-log-R013.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R036",
+  "scenario": "S03",
+  "project": "P06",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe hits steel beam at H-3",
+  "root_cause": "larger chilled water header after load update",
+  "resolution": "ran CHW main under the beam with new hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R036.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R099",
+  "scenario": "S08",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "busway blocks fire damper access at B-5",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R099.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R001",
+  "scenario": "S01",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "tray runs into the duct main at B-4",
+  "root_cause": "electrical room mirrored, pushing the busway and tray into the duct zone",
+  "resolution": "lowered the cable tray 300 mm and offset the busway per the revised electrical layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R001.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R022",
+  "scenario": "S02",
+  "project": "P04",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray and duct collide around D-3",
+  "root_cause": "office ceiling raised, squeezing the services zone above it",
+  "resolution": "moved duct over corridor; tray unchanged",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R022.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R034",
+  "scenario": "S03",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe collides with framing at H-2",
+  "root_cause": "larger chilled water header after load update",
+  "resolution": "relocated the chilled water pipe below the beam and added a hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R034.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R165",
+  "scenario": "S12",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Plumbing",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "RTU conflicts with drain at K-6",
+  "root_cause": "",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R165.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R076",
+  "scenario": "S06",
+  "project": "P06",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "services above containment are too low at D-4",
+  "root_cause": "",
+  "resolution": "fire engineer approved heads inside containment",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R076.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R051",
+  "scenario": "S04",
+  "project": "P05",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-4",
+  "level": "L2",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe hits steel beam at H-4",
+  "root_cause": "beam depth increased to carry heavier rooftop units",
+  "resolution": "lowered branch line and re-spaced heads",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R051.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R023",
+  "scenario": "S02",
+  "project": "P01",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray and duct collide around C-4",
+  "root_cause": "",
+  "resolution": "rerouted the duct above the corridor and kept the tray at its original elevation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R023.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R125",
+  "scenario": "S09",
+  "project": "P02",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v2",
+  "grid_zone": "G-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "pedestals hit condensate line at G-4",
+  "root_cause": "cooling unit condensate line routed through raised-floor pedestals",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": true,
+  "superseded_by": "R113",
+  "source_document": "coordination-log-R125.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R002",
+  "scenario": "S01",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "conflict between cable tray and ductwork at C-4",
+  "root_cause": "busway route moved after the electrical room layout was mirrored",
+  "resolution": "lowered the cable tray 300 mm and offset the busway per the revised electrical layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R002.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R080",
+  "scenario": "S06",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "clearance problem over hot aisle containment at E-4",
+  "root_cause": "sprinkler heads above the containment roof are obstructed",
+  "resolution": "added sprinkler heads inside the containment per the fire engineer",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R080.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R020",
+  "scenario": "S02",
+  "project": "P01",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray hits supply duct at grid D-4",
+  "root_cause": "raised ceiling height in the office wing reduced plenum depth",
+  "resolution": "moved duct over corridor; tray unchanged",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R020.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R159",
+  "scenario": "S12",
+  "project": "P01",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-5",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "rooftop unit sits on roof drain at K-5",
+  "root_cause": "rooftop unit placed over a roof drain",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R159.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R039",
+  "scenario": "S03",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe collides with framing at H-2",
+  "root_cause": "larger chilled water header after load update",
+  "resolution": "relocated the chilled water pipe below the beam and added a hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R039.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R185",
+  "scenario": "UNREL",
+  "project": "P01",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-9",
+  "level": "L2",
+  "discipline_pair": [
+   "Architectural",
+   "Structural"
+  ],
+  "element_categories": [
+   "Wall",
+   "Structural Column"
+  ],
+  "clash_type": "hard",
+  "symptom": "wall misaligned with column at H-9",
+  "root_cause": "wall offset from column grid",
+  "resolution": "updated wall layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R185.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R038",
+  "scenario": "S03",
+  "project": "P06",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe collides with framing at J-2",
+  "root_cause": "chilled water main upsized in a later design revision",
+  "resolution": "ran CHW main under the beam with new hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R038.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R096",
+  "scenario": "S07",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "exhaust stack hits roof steel at K-1",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R096.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R077",
+  "scenario": "S06",
+  "project": "P02",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "F-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "clearance problem over hot aisle containment at F-4",
+  "root_cause": "containment roof blocks sprinkler spray pattern",
+  "resolution": "added sprinkler heads inside the containment per the fire engineer",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R077.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R153",
+  "scenario": "S11",
+  "project": "P06",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v2",
+  "grid_zone": "C-8",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Sprinkler Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "tray and sprinkler main collide at C-8",
+  "root_cause": "cable ladder and sprinkler main share one elevation band",
+  "resolution": "assigned separate elevation bands to tray and sprinkler main",
+  "superseded": true,
+  "superseded_by": "R141",
+  "source_document": "coordination-log-R153.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R177",
+  "scenario": "UNREL",
+  "project": "P09",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "C-1",
+  "level": "L2",
+  "discipline_pair": [
+   "Architectural",
+   "Structural"
+  ],
+  "element_categories": [
+   "Wall",
+   "Structural Column"
+  ],
+  "clash_type": "hard",
+  "symptom": "wall misaligned with column at C-1",
+  "root_cause": "",
+  "resolution": "updated wall layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R177.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R106",
+  "scenario": "S08",
+  "project": "P08",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-5",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "no access to damper because of busduct at B-5",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R106.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R016",
+  "scenario": "S02",
+  "project": "P05",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray clashes with supply duct near grid D-4",
+  "root_cause": "raised ceiling height in the office wing reduced plenum depth",
+  "resolution": "rerouted the duct above the corridor and kept the tray at its original elevation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R016.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R181",
+  "scenario": "UNREL",
+  "project": "P04",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "Roof",
+  "discipline_pair": [
+   "Electrical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "conduit penetrates beam web at C-4",
+  "root_cause": "penetration not approved",
+  "resolution": "rerouted conduit below beam",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R181.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R035",
+  "scenario": "S03",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe clashes with structural beam around H-2",
+  "root_cause": "chilled water main upsized in a later design revision",
+  "resolution": "relocated the chilled water pipe below the beam and added a hanger detail",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R035.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R056",
+  "scenario": "S04",
+  "project": "P04",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "piping runs through the beam at J-3",
+  "root_cause": "",
+  "resolution": "dropped the sprinkler branch below the beam and adjusted head spacing",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R056.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R162",
+  "scenario": "S12",
+  "project": "P06",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "E-7",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "rooftop unit sits on roof drain at E-7",
+  "root_cause": "rooftop unit placed over a roof drain",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R162.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R057",
+  "scenario": "S05",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "symptom": "services above containment are too low at E-3",
+  "root_cause": "",
+  "resolution": "mounted fixtures on containment frame instead of ceiling",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R057.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R093",
+  "scenario": "S07",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "G-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "genset flue collisions with beams at G-1",
+  "root_cause": "",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R093.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R158",
+  "scenario": "S12",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "F-7",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "roof drain under mechanical unit at F-7",
+  "root_cause": "rooftop unit placed over a roof drain",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R158.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R105",
+  "scenario": "S08",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "B-4",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Generic Model"
+  ],
+  "clash_type": "clearance",
+  "symptom": "busduct in front of damper at B-4",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R105.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R062",
+  "scenario": "S05",
+  "project": "P08",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "symptom": "containment clashes with overhead services at E-3",
+  "root_cause": "",
+  "resolution": "moved light fixtures onto the containment frame",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R062.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R052",
+  "scenario": "S04",
+  "project": "P07",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe clashes with structural beam near H-3",
+  "root_cause": "beam depth increased to carry heavier rooftop units",
+  "resolution": "lowered branch line and re-spaced heads",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R052.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R155",
+  "scenario": "S12",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "K-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "rooftop unit sits on roof drain at K-6",
+  "root_cause": "rooftop unit placed over a roof drain",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R155.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R065",
+  "scenario": "S05",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Lighting Fixture"
+  ],
+  "clash_type": "clearance",
+  "symptom": "services above containment are too low at E-4",
+  "root_cause": "containment roof height changed in the current design standard",
+  "resolution": "moved light fixtures onto the containment frame",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R065.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R089",
+  "scenario": "S07",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-1",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Generator Exhaust",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "generator exhaust clashes with roof framing at J-1",
+  "root_cause": "generator exhaust stack moved to meet setback rules",
+  "resolution": "added roof framing opening and trimmer beams for the exhaust",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R089.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R190",
+  "scenario": "UNREL",
+  "project": "P07",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "E-1",
+  "level": "L2",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Door",
+   "Mechanical Equipment"
+  ],
+  "clash_type": "hard",
+  "symptom": "unit blocks door access at E-1",
+  "root_cause": "",
+  "resolution": "moved unit 600 mm",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R190.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R175",
+  "scenario": "UNREL",
+  "project": "P02",
+  "phase": "IFC",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "F-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Duct",
+   "Structural Column"
+  ],
+  "clash_type": "hard",
+  "symptom": "duct clashes with column at F-6",
+  "root_cause": "",
+  "resolution": "split duct around column",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R175.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R191",
+  "scenario": "UNREL",
+  "project": "P02",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-5",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Duct",
+   "Structural Column"
+  ],
+  "clash_type": "hard",
+  "symptom": "duct hits column at D-5",
+  "root_cause": "column enlarged",
+  "resolution": "split duct around column",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R191.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R163",
+  "scenario": "S12",
+  "project": "P06",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Pipe"
+  ],
+  "clash_type": "hard",
+  "symptom": "RTU clashes with drain at J-6",
+  "root_cause": "rooftop unit placed over a roof drain",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R163.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R199",
+  "scenario": "UNREL",
+  "project": "P01",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "B-7",
+  "level": "L2",
+  "discipline_pair": [
+   "Mechanical",
+   "Structural"
+  ],
+  "element_categories": [
+   "Duct",
+   "Structural Column"
+  ],
+  "clash_type": "clearance",
+  "symptom": "duct clashes with column at B-7",
+  "root_cause": "",
+  "resolution": "split duct around column",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R199.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R124",
+  "scenario": "S09",
+  "project": "P08",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-3",
+  "level": "Roof",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "condensate pipe hits floor pedestals at G-3",
+  "root_cause": "cooling unit condensate line routed through raised-floor pedestals",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R124.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R018",
+  "scenario": "S02",
+  "project": "P04",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "K-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct",
+   "Ceiling"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray runs into supply duct around grid K-4",
+  "root_cause": "raised ceiling height in the office wing reduced plenum depth",
+  "resolution": "moved duct over corridor; tray unchanged",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R018.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R046",
+  "scenario": "S04",
+  "project": "P05",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe clashes with structural beam at H-3",
+  "root_cause": "beam depth increased to carry heavier rooftop units",
+  "resolution": "lowered branch line and re-spaced heads",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R046.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R169",
+  "scenario": "UNREL",
+  "project": "P09",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "A-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Structural"
+  ],
+  "element_categories": [
+   "Wall",
+   "Structural Column"
+  ],
+  "clash_type": "clearance",
+  "symptom": "wall misaligned with column at A-3",
+  "root_cause": "",
+  "resolution": "updated wall layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R169.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R117",
+  "scenario": "S09",
+  "project": "P03",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "drain line runs through raised floor supports at G-3",
+  "root_cause": "cooling unit condensate line routed through raised-floor pedestals",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R117.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R187",
+  "scenario": "UNREL",
+  "project": "P03",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "K-2",
+  "level": "Roof",
+  "discipline_pair": [
+   "Plumbing",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Ceiling"
+  ],
+  "clash_type": "clearance",
+  "symptom": "drain pipe below ceiling at K-2",
+  "root_cause": "",
+  "resolution": "raised drain into plenum",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R187.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R068",
+  "scenario": "S05",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment"
+  ],
+  "clash_type": "clearance",
+  "symptom": "overhead items conflict with aisle containment at D-3",
+  "root_cause": "taller containment roof in the latest standard",
+  "resolution": "mounted fixtures on containment frame instead of ceiling",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R068.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R138",
+  "scenario": "S10",
+  "project": "P01",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Electrical"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Generic Model"
+  ],
+  "clash_type": "clearance",
+  "symptom": "door hits surface conduit at A-2",
+  "root_cause": "",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R138.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R122",
+  "scenario": "S09",
+  "project": "P01",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "condensate pipe clashes with floor pedestals at G-4",
+  "root_cause": "cooling unit condensate line routed through raised-floor pedestals",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R122.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R044",
+  "scenario": "S04",
+  "project": "P09",
+  "phase": "Construction",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L2",
+  "discipline_pair": [
+   "Fire Protection",
+   "Structural"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Structural Framing"
+  ],
+  "clash_type": "hard",
+  "symptom": "pipe collides with framing at H-3",
+  "root_cause": "beam depth increased to carry heavier rooftop units",
+  "resolution": "dropped the sprinkler branch below the beam and adjusted head spacing",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R044.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R157",
+  "scenario": "S12",
+  "project": "P03",
+  "phase": "IFC",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "J-6",
+  "level": "Roof",
+  "discipline_pair": [
+   "Mechanical",
+   "Plumbing"
+  ],
+  "element_categories": [
+   "Mechanical Equipment",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "roof drain under mechanical unit at J-6",
+  "root_cause": "rooftop unit placed over a roof drain",
+  "resolution": "moved roof drain and regraded roof insulation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R157.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R119",
+  "scenario": "S09",
+  "project": "P05",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "G-4",
+  "level": "L2",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "drain line runs through raised floor supports at G-4",
+  "root_cause": "",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R119.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R116",
+  "scenario": "S09",
+  "project": "P06",
+  "phase": "Construction",
+  "bod_family": "DH-B",
+  "bod_version": "v3",
+  "grid_zone": "F-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Mechanical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Pipe",
+   "Floor"
+  ],
+  "clash_type": "hard",
+  "symptom": "condensate pipe clashes with floor pedestals at F-4",
+  "root_cause": "cooling unit condensate line routed through raised-floor pedestals",
+  "resolution": "rerouted condensate line between pedestal rows",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R116.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R182",
+  "scenario": "UNREL",
+  "project": "P04",
+  "phase": "IFC",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "C-2",
+  "level": "Roof",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Door",
+   "Mechanical Equipment"
+  ],
+  "clash_type": "clearance",
+  "symptom": "unit blocks door access at C-2",
+  "root_cause": "",
+  "resolution": "moved unit 600 mm",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R182.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R048",
+  "scenario": "S04",
+  "project": "P06",
+  "phase": "DD",
+  "bod_family": "CUP",
+  "bod_version": "v3",
+  "grid_zone": "H-3",
+  "level": "L1",
+  "discipline_pair": [
+   "Structural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Sprinkler Pipe",
+   "Generic Model"
+  ],
+  "clash_type": "hard",
+  "symptom": "beam and pipe conflict around H-3",
+  "root_cause": "beam depth increased to carry heavier rooftop units",
+  "resolution": "lowered branch line and re-spaced heads",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R048.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R073",
+  "scenario": "S06",
+  "project": "P07",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "E-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "services above containment are too low at E-4",
+  "root_cause": "sprinkler heads above the containment roof are obstructed",
+  "resolution": "fire engineer approved heads inside containment",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R073.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R082",
+  "scenario": "S06",
+  "project": "P05",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Fire Protection"
+  ],
+  "element_categories": [
+   "Hot Aisle Containment",
+   "Sprinkler Head"
+  ],
+  "clash_type": "clearance",
+  "symptom": "clearance problem over hot aisle containment at D-4",
+  "root_cause": "containment roof blocks sprinkler spray pattern",
+  "resolution": "fire engineer approved heads inside containment",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R082.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R019",
+  "scenario": "S02",
+  "project": "P01",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray and duct collide around D-4",
+  "root_cause": "",
+  "resolution": "moved duct over corridor; tray unchanged",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R019.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R009",
+  "scenario": "S01",
+  "project": "P05",
+  "phase": "DD",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "C-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray",
+   "Duct"
+  ],
+  "clash_type": "hard",
+  "symptom": "ductwork hits the cable tray at C-4",
+  "root_cause": "electrical room mirrored, pushing the busway and tray into the duct zone",
+  "resolution": "lowered the cable tray 300 mm and offset the busway per the revised electrical layout",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R009.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R028",
+  "scenario": "S02",
+  "project": "P07",
+  "phase": "Construction",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "D-4",
+  "level": "L1",
+  "discipline_pair": [
+   "Architectural",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Cable Tray"
+  ],
+  "clash_type": "hard",
+  "symptom": "cable tray runs into supply duct near grid D-4",
+  "root_cause": "raised ceiling height in the office wing reduced plenum depth",
+  "resolution": "rerouted the duct above the corridor and kept the tray at its original elevation",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R028.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ },
+ {
+  "record_id": "R137",
+  "scenario": "S10",
+  "project": "P09",
+  "phase": "DD",
+  "bod_family": "ADMIN",
+  "bod_version": "v3",
+  "grid_zone": "A-2",
+  "level": "L1",
+  "discipline_pair": [
+   "Electrical",
+   "Architectural"
+  ],
+  "element_categories": [
+   "Conduit",
+   "Door"
+  ],
+  "clash_type": "clearance",
+  "symptom": "conduit clashes with door at A-2",
+  "root_cause": "",
+  "resolution": "moved conduit into the wall above the door head",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R137.pdf",
+  "synthetic": true,
+  "stale_truth": false
+ },
+ {
+  "record_id": "R112",
+  "scenario": "S08",
+  "project": "P05",
+  "phase": "IFC",
+  "bod_family": "DH-A",
+  "bod_version": "v3",
+  "grid_zone": "K-1",
+  "level": "L2",
+  "discipline_pair": [
+   "Electrical",
+   "Mechanical"
+  ],
+  "element_categories": [
+   "Busway",
+   "Duct Accessory"
+  ],
+  "clash_type": "clearance",
+  "symptom": "busduct in front of damper at K-1",
+  "root_cause": "busway blocks access to the fire damper",
+  "resolution": "shifted busway 450 mm to keep damper access panel clear",
+  "superseded": false,
+  "superseded_by": null,
+  "source_document": "coordination-log-R112.pdf",
+  "synthetic": true,
+  "stale_truth": true
+ }
+]

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or code, please cite it."
+title: "bim-coordination-retrieval: an open synthetic benchmark for retrieval of BIM coordination precedents"
+version: 1.0.0
+date-released: 2026-11-12
+license: MIT
+authors:
+  - family-names: Malligarjunan
+    given-names: Roja
+    affiliation: "Independent researcher"
+    orcid: "https://orcid.org/0009-0002-2480-6722"
+repository-code: "https://github.com/roja6055-tech/bim-coordination-retrieval"

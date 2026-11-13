@@ -1,0 +1,178 @@
+{
+ "config": {
+  "rrf_k": 60,
+  "feature_weight": 3,
+  "dev_tuning_ndcg5": {
+   "1": 0.8838371636076484,
+   "2": 0.9197716312626208,
+   "3": 0.941115088543576,
+   "4": 0.9394356776297114,
+   "5": 0.9362638089084457
+  },
+  "abstention_threshold": 4.0,
+  "threshold_scale": "structured-feature agreement score of the best-matching record (0 to 4.75)",
+  "summary_layer": "rule-based simulation of the answer contract (no language model)"
+ },
+ "counts": {
+  "records": 200,
+  "queries": 40,
+  "dev": 13,
+  "test": 27,
+  "test_with_precedent": 24,
+  "test_novel": 3
+ },
+ "rq1": [
+  {
+   "method": "Keyword (BM25)",
+   "n": 24,
+   "ndcg5": 0.8246808389431033,
+   "ndcg5_ci": [
+    0.7435401385491608,
+    0.8900971683707095
+   ],
+   "mrr": 0.9041666666666667,
+   "recall10": 0.6215277777777777,
+   "hard5": 0.09166666666666667,
+   "stale5": 0.10833333333333334
+  },
+  {
+   "method": "Semantic (LSA)",
+   "n": 24,
+   "ndcg5": 0.8062196408173031,
+   "ndcg5_ci": [
+    0.730304460211115,
+    0.8730773388878743
+   ],
+   "mrr": 0.8854166666666666,
+   "recall10": 0.6284722222222222,
+   "hard5": 0.08333333333333333,
+   "stale5": 0.125
+  },
+  {
+   "method": "Keyword + semantic",
+   "n": 24,
+   "ndcg5": 0.820539574652014,
+   "ndcg5_ci": [
+    0.7438319760497902,
+    0.8798195127865364
+   ],
+   "mrr": 0.8854166666666666,
+   "recall10": 0.6180555555555555,
+   "hard5": 0.06666666666666667,
+   "stale5": 0.13333333333333333
+  },
+  {
+   "method": "Feature only",
+   "n": 24,
+   "ndcg5": 0.880384927753154,
+   "ndcg5_ci": [
+    0.8118292068598121,
+    0.9366348017471906
+   ],
+   "mrr": 0.9375,
+   "recall10": 0.7083333333333334,
+   "hard5": 0.03333333333333333,
+   "stale5": 0.10833333333333335
+  },
+  {
+   "method": "Hybrid, equal weights",
+   "n": 24,
+   "ndcg5": 0.8633094940089091,
+   "ndcg5_ci": [
+    0.8094733658889476,
+    0.9132800687077194
+   ],
+   "mrr": 0.9375,
+   "recall10": 0.6805555555555555,
+   "hard5": 0.041666666666666664,
+   "stale5": 0.125
+  },
+  {
+   "method": "Hybrid + superseded demotion",
+   "n": 24,
+   "ndcg5": 0.9163940641163659,
+   "ndcg5_ci": [
+    0.8603926528960245,
+    0.9645962206368913
+   ],
+   "mrr": 0.9583333333333334,
+   "recall10": 0.7291666666666666,
+   "hard5": 0.05000000000000001,
+   "stale5": 0.05000000000000001
+  },
+  {
+   "method": "Weighted hybrid + demotion",
+   "n": 24,
+   "ndcg5": 0.9149060817993937,
+   "ndcg5_ci": [
+    0.8450024572968838,
+    0.9695024410658108
+   ],
+   "mrr": 0.9166666666666666,
+   "recall10": 0.763888888888889,
+   "hard5": 0.024999999999999998,
+   "stale5": 0.05833333333333334
+  }
+ ],
+ "rq1_paired": {
+  "weighted+demote vs keyword": {
+   "diff": 0.09022524285629047,
+   "ci": [
+    0.01098874996233109,
+    0.17963596955174718
+   ],
+   "wilcoxon_p": 0.049341026567361404
+  },
+  "weighted+demote vs kw+sem": {
+   "diff": 0.09436650714737971,
+   "ci": [
+    0.0124699002083872,
+    0.17913881834303616
+   ],
+   "wilcoxon_p": 0.030942121644554097
+  },
+  "hybrid+demote vs hybrid": {
+   "diff": 0.05308457010745666,
+   "ci": [
+    0.025019940889751617,
+    0.08151675036895058
+   ],
+   "wilcoxon_p": 0.007212578345957219
+  },
+  "weighted+demote vs hybrid+demote": {
+   "diff": -0.0014879823169722181,
+   "ci": [
+    -0.033661207990954956,
+    0.034108621973446114
+   ],
+   "wilcoxon_p": 0.6744240722352938
+  }
+ },
+ "rq2": {
+  "contract": {
+   "statements": 71,
+   "citation_precision": 0.9154929577464789,
+   "unsupported_rate": 0.08450704225352113,
+   "correct_abstentions": 3,
+   "novel_queries": 3,
+   "wrong_abstentions": 0
+  },
+  "unconstrained": {
+   "statements": 81,
+   "citation_precision": 0.4444444444444444,
+   "unsupported_rate": 0.5555555555555556,
+   "answered_novel": 3
+  }
+ },
+ "rq3": {
+  "full_ndcg5": 0.9149060817993937,
+  "no_shared_grid_or_bod_ndcg5": 0.8962852595430283,
+  "ablation_ndcg5": {
+   "grid zone": 0.9148787262517736,
+   "discipline pair": 0.9036100454510287,
+   "element categories": 0.9086799496464589,
+   "clash type, phase and level": 0.9266578150347016,
+   "basis-of-design family": 0.9149060817993937
+  }
+ }
+}
